@@ -1,5 +1,7 @@
 # Web Application Outage Incident
 
+![Oh Men](https://media1.tenor.com/images/2ed919ce9aa9018d8d19f474cbb90847/tenor.gif?itemid=3417051)
+
 ## Overview
 This is a postmortem analysis of a web application outage that occurred on May 12, 2024, affecting our web application services. The outage resulted in a complete unavailability of the application for users, lasting from 10:00 AM to 12:00 PM (UTC-5). The root cause of the outage was identified as a misconfiguration in the load balancer settings, leading to an imbalance in traffic distribution and the subsequent crash of a server.
 
